@@ -4,7 +4,7 @@ library(colorspace)
 library(scales)
 
 # read in backend
-source("~/Documents/projects/GitHub_salim_models/export/v001/model_02/backend_v02.R")
+source("backend_v02.R")
 
 # Prep vessels
 VesselsList <- initializeBloodVessels(plot = TRUE, BloVesN = 36, Rrows = 4, seed = 111)
