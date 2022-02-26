@@ -1,8 +1,7 @@
-# Set wd
-setwd("~/Documents/projects/cellmigRation/modeling/v01/")
+# use setwd() to set the working directory, where the "Modeling_backend" and "Run_model" are saved
 
 # Load R code
-source("modeling_backend_v001.R")
+source("Modeling_backend.R")
 
 
 # Initialize or load Vessel Data
@@ -20,8 +19,9 @@ TimeInterval=1            # in hours
 DT= 156                   # in hours
 DTinR=108                 # in hours
 G1=60                     # in hours
-SimTime=1600              # in hours
+SimTime=21600             # in hours (90 days simulation)
 
+# trajectory parameters 
 minSpe <- 1.5             # um/h
 maxSpe <- 64              # um/h
 desired_meanSpe <- 15     # um/h
