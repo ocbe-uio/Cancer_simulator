@@ -33,7 +33,7 @@ LeavingRzone=0.5          # Threshold for leaving red zone    ( a value between 
 IntravasationProb=0.01    # For a cell to be able to intravasate it should get a random number (between 0 and 1) that is equal to the "IntravasationProb" or less.
 IntraVas_inc_By_GF =33    # the increment in the IntravasationProb due to Golgi fragmentation
 minRange_IntraVas_inc_By_GF=0.5
-maxRange_IntraVas_inc_By_GF=1.5
+maxRange_IntraVas_inc_By_GF=1
 
 # Golgi freq
 Golgi_Fra_Frequency= 80
